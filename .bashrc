@@ -43,3 +43,10 @@ alias ll='ls -lrta'
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
 alias dotfiles config='/usr/bin/git --git-dir=/home/rnoriega/.dotfiles/ --work-tree=/home/rnoriega'
+
+# Systemctl
+alias sdisable=' sudo systemctl disable $@'
+alias senable='sudo systemctl enable $@'
+alias srestart='sudo systemctl restart $@'
+alias sstart='sudo systemctl start $@'
+alias sstatus='sudo systemctl status $@'
