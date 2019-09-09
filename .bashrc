@@ -42,7 +42,7 @@ alias devel='cd ~/Documents/devel'
 alias ll='ls -lrta'
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOPATH/bin"
-alias dotfiles config='/usr/bin/git --git-dir=/home/rnoriega/.dotfiles/ --work-tree=/home/rnoriega'
+alias dotfiles='/usr/bin/git --git-dir=/home/rnoriega/.dotfiles/ --work-tree=/home/rnoriega'
 
 # Systemctl
 alias sdisable=' sudo systemctl disable $@'
